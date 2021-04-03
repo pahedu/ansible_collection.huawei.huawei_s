@@ -1,0 +1,21 @@
+namespace: huawei
+name: huawei_s
+version: 0.1.0
+readme: README.md
+authors:
+    - Aleksandr Natov
+description: An Ansible collection for managing Huawei S Series devices running VRP.
+license: GPL-3.0-or-later
+license_file: LICENSE
+dependencies:
+  "ansible.netcommon": "*"
+repository: git@github.com:pahedu/ansible_collection.huawei.huawei_s.git
+documentation: git@github.com:pahedu/ansible_collection.huawei.huawei_s/docs
+homepage: git@github.com:pahedu/ansible_collection.huawei.huawei_s
+issues: git@github.com:pahedu/ansible_collection.huawei.huawei_s/issues
+tags:
+    - networking
+    - huawei_s
+    - huawei
+    - switching
+    - collection
