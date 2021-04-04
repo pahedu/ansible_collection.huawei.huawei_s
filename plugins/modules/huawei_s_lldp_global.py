@@ -196,8 +196,8 @@ commands:
 """
 
 from ansible.module_utils.basic import AnsibleModule
-from ansible.module_utils.network.ios.argspec.lldp_global.lldp_global import Lldp_globalArgs
-from ansible.module_utils.network.ios.config.lldp_global.lldp_global import Lldp_global
+from ansible.module_utils.network.huawei_s.argspec.lldp_global.lldp_global import Lldp_globalArgs
+from ansible.module_utils.network.huawei_s.config.lldp_global.lldp_global import Lldp_global
 
 
 def main():

@@ -248,8 +248,8 @@ commands:
 
 
 from ansible.module_utils.basic import AnsibleModule
-from ansible.module_utils.network.ios.argspec.lldp_interfaces.lldp_interfaces import Lldp_InterfacesArgs
-from ansible.module_utils.network.ios.config.lldp_interfaces.lldp_interfaces import Lldp_Interfaces
+from ansible.module_utils.network.huawei_s.argspec.lldp_interfaces.lldp_interfaces import Lldp_InterfacesArgs
+from ansible.module_utils.network.huawei_s.config.lldp_interfaces.lldp_interfaces import Lldp_Interfaces
 
 
 def main():

@@ -14,7 +14,7 @@ from __future__ import absolute_import, division, print_function
 __metaclass__ = type
 
 from copy import deepcopy
-import re
+
 from ansible.module_utils.network.common import utils
 from ansible.module_utils.network.huawei_s.utils.utils import get_interface_type, normalize_interface
 from ansible.module_utils.network.huawei_s.argspec.l2_interfaces.l2_interfaces import L2_InterfacesArgs

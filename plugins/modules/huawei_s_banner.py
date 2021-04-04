@@ -90,7 +90,7 @@ commands:
 from ansible.module_utils.basic import AnsibleModule
 from ansible.module_utils.connection import exec_command
 from ansible.module_utils.network.huawei_s.huawei_s import load_config
-from ansible.module_utils.network.huawei_s.ihuawei_sos import huawei_s_argument_spec, check_args
+from ansible.module_utils.network.huawei_s.huawei_s import huawei_s_argument_spec, check_args
 import re
 
 
